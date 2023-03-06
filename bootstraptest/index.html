@@ -41,7 +41,10 @@
     <div class="col"> .col</div>
     -->
 
+    
+
     <div class="container">
+        <h1>TEXT</h1>
         Los vastaya de Lhotlan vivieron alguna vez en los límites antiguos y místicos de los bosques más profundos de Jonia, en la isla oriental de Qaelin. Era un lugar donde la magia se respiraba como si fuera aire y el tiempo no tenía importancia. Para estas criaturas quiméricas, las tierras de los mortales representaban un desierto despiadado, desprovisto de magia casi en su totalidad. Durante siglos, ese desierto creció hasta invadir los territorios vastaya.
 
         Rakan nació en una tribu en decadencia, pero nunca perdió las esperanzas.
@@ -52,6 +55,7 @@
     <br>
 
     <div class="container">
+        <h1>ROWS AND COLUMNS - THE GRID</h1>
         <div class="row col-6 g-2">
             <div class="col">
                 <div class="box"></div>
@@ -79,6 +83,7 @@
 
     
     <div class="container">
+        <h1>TABLES</h1>
         <div class="table-responsive">
             <table class="table table-bordered table-info table-striped">
                 <thead>
@@ -113,22 +118,23 @@
     <br>
 
     <div class="container">
+        <h1>FORMS</h1>
         <form>
             <label for="email" class="form-label">Enter your email adress</label>
             <input type="email" id="email" value="example@gmail.com" readonly class="form-control form-control-sm">
             
             
-            <button>Send</button>
+            <button class="btn btn-primary">Send</button>
         </form>
         <form>
             <label for="color" class="form-label">Pick a color</label>
             <input type="color" class="form-control-color">
-            <button>Send</button>
+            <button class="btn btn-primary">Send</button>
         </form>
         <form>
             <label for="range" class="form-label">Specify a range</label>
             <input type="range" class="form-range">
-            <button>Send</button>
+            <button class="btn btn-primary">Send</button>
 <br>
         </form>
             <select class="form-select">
@@ -136,7 +142,7 @@
             <option>Two</option>
             <option>Three</option>
             </select>
-            <button>Submit</button>
+            <button class="btn btn-primary">Submit</button>
         <form>
 
         <form>
@@ -176,6 +182,7 @@
 
     <!-- FLOATING LABEL - Input first and label second, also always add placeholder value -->
     <div class="container">
+        <h1>FLOATING LABEL</h1>
         <form>
             <div class="form-floating">
                 <input type="email" id="email"  class="form-control" placeholder="Enter email here" required>   
@@ -186,8 +193,10 @@
         </form>
     </div>
 
+    <br><br>
     <!-- VALIDATED FORMS -->
     <div class="container">
+        <h1>VALIDATED FORMS</h1>
         <form novalidate class="was-validated">
             <div class="form-floating">
                 <input type="email" id="email" class="form-control" placeholder="Email" required>
@@ -195,7 +204,7 @@
                 <div class="invalid-feedback">Invalid email</div>
                 <div class="valid-feedback">Valid email</div>
             </div>
-            <button>Submit</button>
+            <button class="btn btn-primary">Submit</button>
         </form>
     </div>
 
@@ -214,16 +223,18 @@
 
     <!--If you have a vertical button group remove the edafult btn-group class thats before btn-group-vertical -->
     <div class="container">
+        <h1>BUTTONS</h1>
         <div class="btn-group btn-group-vertical">
             <button class="btn btn-outline-danger">Button 1</button>
             <button class="btn btn-outline-success btn" data-bs-toggle="button">Button 2</button>
-            <a class="btn btn-secondary" href="#">Link button</a>
+            <a class="btn btn-secondary" href="https://www.google.com/maps/?hl=es" target="_blank">Link button</a>
         </div>
     </div>
 
     <!-- ALERT -->
     <br><br>
     <div class="container">
+        <h1>ALERTS</h1>
         <div class="alert alert-success alert-dismissible fade show" role="alert" >
             <h1>Warning</h1>
             <a href="https://lolesports.com/" class="alert-link" target="_blank">Dont miss the game</a>
@@ -234,15 +245,29 @@
     <br><br>
 
     <div class="container">
+        <h1>CARDS</h1>
         <div class="card" style="width:250px">
-            <img class="card-img-top" src="cat.jpg"  alt="">
+            <img class="card-img-top" src="cat.jpg"  alt="cat">
             <div class="card-body">
-                <h2 class="card-title">Title</h2>
-                <h3 class="card-subtitle">Subtitle</h3>
-                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi quos illo quibusdam aliquid facere saepe perspiciatis, amet sed eveniet dicta tempora quo, soluta magnam deserunt? Porro voluptate molestias maxime?</div>
+                <h3 class="card-title">Title</h3>
+                <h4 class="card-subtitle">Subtitle</h4>
+                <div class="card-text">This a card with an image on top.</div>
                 <div class="card-footer">Footer</div>
             </div>
         </div>    
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="card" style="width: 250px">
+        <img class="card-img" src="bd.jpg" alt="space">
+            <div class="card-body card-img-overlay" style="color: aliceblue;">
+                <h2 class="card-title">Title </h2>
+                <h3 class="card-subtitle">Subtitle</h3>
+                <div class="card-text">This is a card with an image overlay. The text goes on top of the image instead of the top or bottom.</div>
+            </div>
+        </div>
     </div>
 
     <br><br>
@@ -272,19 +297,36 @@
    
     <br><br>
 
+    <!-- MODALS - modal-fullscreen in modal dialog class to make it so that... the modal occupies the entire screen, same with different sizes -->
     <div class="container">
+        <h1>MODALS</h1>
         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Open</button>
         <div class="modal fade" id="modal">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                    <div class="modal-header">Surprise title</div>
-                    <div class="modal-body">surpise body</div>
-                    <div class="modal-footer">Surprise footer</div>
-                
+                    
+                    <div class="modal-header">
+                        <h1>Surprise title</h1>
+                        <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button>
+
+                    </div>
+                    <div class="modal-body">This modal is centered
+                        Here's some text
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus a dolorem fugit odio dolorum veritatis voluptas adipisci placeat natus. Inventore, dolor corrupti, placeat unde repudiandae et cupiditate eos hic assumenda suscipit distinctio. Illum labore odit suscipit reiciendis eligendi deleniti quaerat, dicta sed consequuntur ex nam ratione earum dolore magni maiores atque saepe facere doloremque fugit cumque aut necessitatibus maxime? Cupiditate, nobis? Consequuntur, dolorem. Recusandae fugit quisquam ipsam? Saepe quisquam vero odio hic repudiandae! Voluptas impedit nesciunt minus dolores accusamus esse dolore tempora accusantium, quam eius tempore ut vel laboriosam nisi, necessitatibus, cumque aperiam amet ullam. Adipisci, magnam. Neque ducimus esse et animi, aliquid quaerat quae earum ullam libero rerum magnam odit, nostrum obcaecati ea porro nulla, sequi deserunt ipsam tempore vel sapiente perspiciatis est iste cumque! Aperiam suscipit ducimus, laudantium numquam alias, quia, nesciunt laboriosam sit quibusdam quis quidem! Molestias minus fugit libero aut veritatis nemo qui unde? Accusantium incidunt distinctio voluptates saepe eaque possimus, dolores, assumenda nostrum earum, consequatur odit placeat inventore molestias veritatis voluptas aspernatur a laudantium magni exercitationem molestiae atque laboriosam? Esse error, amet a unde nulla, qui molestiae fugit illo delectus tempore inventore, mollitia enim? In dolore, ipsam voluptatum temporibus deserunt itaque dignissimos quibusdam fuga libero.
+                    </div>
+                    <div class="modal-footer">
+                        Surprise footer
+                        <button class="btn btn-primary" data-bs-dismiss="modal"> Close</button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
+
+    <br><br>
+
+
 
 
     
