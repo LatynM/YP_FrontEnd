@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+
+     
+    <div class="container-md border">Words</div>
+
+    <img src="cat.jpg" class ="img-fluid" alt="cat hauling ass">
+
+    <div class="container border">
+
+        <div class="row">
+    
+          <div class="col-sm-4"> .col-sm-4 </div>
+    
+          <div class="col-sm-8"> .col-sm-8 </div>
+    
+        </div>
+    
+    </div>
+
+    <div class="container border">
+
+        <div class="row">
+    
+          <div class="col"> .col</div>
+    
+          <div class="col-6"> .col-6 </div>
+    
+    <div class="col"> .col</div>
+    -->
+
+    <div class="container">
+        Los vastaya de Lhotlan vivieron alguna vez en los límites antiguos y místicos de los bosques más profundos de Jonia, en la isla oriental de Qaelin. Era un lugar donde la magia se respiraba como si fuera aire y el tiempo no tenía importancia. Para estas criaturas quiméricas, las tierras de los mortales representaban un desierto despiadado, desprovisto de magia casi en su totalidad. Durante siglos, ese desierto creció hasta invadir los territorios vastaya.
+
+        Rakan nació en una tribu en decadencia, pero nunca perdió las esperanzas.
+
+        Al igual que sus compañeros, Rakan veía cómo los asentamientos humanos continuaban expandiéndose, reprimiendo el flujo de la magia salvaje y caótica de Jonia para su propia seguridad. Muchas tribus enviaron emisarios para negociar acuerdos con ellos y así proteger la energía mística que los vastaya necesitaban para sobrevivir. Sin embargo, estas promesas se rompieron una y otra vez.
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row col-6 g-2">
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col-12">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col-auto">
+                <div class="box">Words</div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-bordered table-info table-striped">
+                <thead>
+                    <th>Support</th>
+                    <th>Marksman</th>
+                    <th>Tank</th>
+                    
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr class="table-success">
+                        <td>Rakan</td>
+                        <td>Lucian</td>
+                        <td>Maokai</td>  
+                    </tr>
+                    <tr>
+                        <td>Soraka</td>
+                        <td>Miss Fortune</td>
+                        <td>Dr. Mundo</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>Pyke</td>
+                        <td>Jhin</td>
+                        <td>Ornn</td>
+                    </tr>
+                    
+                </tbody>
+            </table>   
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <form>
+            <label for="email" class="form-label">Enter your email adress</label>
+            <input type="email" id="email" value="example@gmail.com" readonly class="form-control form-control-sm">
+            
+            
+            <button>Send</button>
+        </form>
+        <form>
+            <label for="color" class="form-label">Pick a color</label>
+            <input type="color" class="form-control-color">
+            <button>Send</button>
+        </form>
+        <form>
+            <label for="range" class="form-label">Specify a range</label>
+            <input type="range" class="form-range">
+            <button>Send</button>
+<br>
+        </form>
+            <select class="form-select">
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+            </select>
+            <button>Submit</button>
+        <form>
+
+        <form>
+            <div class="form-check-inline">
+                <input type="checkbox" class="form-check-input"> 
+              <label for="Enabled" class="form-check-label">Enabled</label>
+            </div>
+            <div class="form-check-inline">
+                <input type="checkbox" class="form-check-input"> 
+              <label for="Enabled" class="form-check-label">Enabled</label>
+            </div>
+            <div class="form-switch">
+                <input type="checkbox" class="form-check-input"> 
+              <label for="Enabled" class="form-check-label">Enabled</label>
+            </div>
+        </form>
+        </form>
+    </div>
+
+    <br><br>
+
+
+    <!--  -->
+    <div class="container">
+        <form>
+            <label for="text" class="form-label">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text" class="form-control"/>
+                <div class="input-group-text">.00</div>
+                <button class="btn btn-danger">+</button>
+            </div>
+        </form>
+    </div>
+    <br><br>
+
+
+    <!-- FLOATING LABEL - Input first and label second, also always add placeholder value -->
+    <div class="container">
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email"  class="form-control" placeholder="Enter email here" required>   
+                <label for="email" >Enter your email adress</label>
+                
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- VALIDATED FORMS -->
+    <div class="container">
+        <form novalidate class="was-validated">
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                <label for="email">Email</label>
+                <div class="invalid-feedback">Invalid email</div>
+                <div class="valid-feedback">Valid email</div>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <!-- idk if this works I'll get it later -->
+    <script>
+        const form = document.querySelector("form")
+
+        form.addEventListener('submit', e => {
+            if(!form.checkValidity()) {
+                e.preventDefault()
+            }
+            form.classList.add('was-validated')
+        }) 
+    </script>
+    <br><br>
+
+    <!--If you have a vertical button group remove the edafult btn-group class thats before btn-group-vertical -->
+    <div class="container">
+        <div class="btn-group btn-group-vertical">
+            <button class="btn btn-outline-danger">Button 1</button>
+            <button class="btn btn-outline-success btn" data-bs-toggle="button">Button 2</button>
+            <a class="btn btn-secondary" href="#">Link button</a>
+        </div>
+    </div>
+
+    <!-- ALERT -->
+    <br><br>
+    <div class="container">
+        <div class="alert alert-success alert-dismissible fade show" role="alert" >
+            <h1>Warning</h1>
+            <a href="https://lolesports.com/" class="alert-link" target="_blank">Dont miss the game</a>
+            <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="card" style="width:250px">
+            <img class="card-img-top" src="cat.jpg"  alt="">
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <h3 class="card-subtitle">Subtitle</h3>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi quos illo quibusdam aliquid facere saepe perspiciatis, amet sed eveniet dicta tempora quo, soluta magnam deserunt? Porro voluptate molestias maxime?</div>
+                <div class="card-footer">Footer</div>
+            </div>
+        </div>    
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="card-group" style="width:50%">
+            <div class="card" >
+                <img class="card-img-top" src="5f.jpg"  alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Group Cards</h2>
+                    <h3 class="card-subtitle">Card one</h3>
+                    <div class="card-text">Boy one</div>
+                    <div class="card-footer">Footer</div>
+                </div>
+            </div>    
+            <div class="card" >
+                <img class="card-img-top" src="4fb.jpg"  alt="">
+                <div class="card-body">
+                    <h2 class="card-title">Group cards</h2>
+                    <h3 class="card-subtitle">Card two</h3>
+                    <div class="card-text">Boy two</div>
+                    <div class="card-footer">Footer</div>
+                </div>
+            </div>    
+        </div>
+    </div>
+   
+    <br><br>
+
+    <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Open</button>
+        <div class="modal fade" id="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">Surprise title</div>
+                    <div class="modal-body">surpise body</div>
+                    <div class="modal-footer">Surprise footer</div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
