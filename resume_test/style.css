@@ -1,0 +1,168 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.titles{
+    font-weight: 700;
+}
+
+.titles2{
+    font-weight: 700;
+    font-size: large;
+}
+
+.titles3{
+	font-weight: 700;
+	text-align: center;
+}
+
+.badges{
+	background-color: #e63b52;
+	color: #e9d6d6;
+}
+
+.progressBars{
+    font-size: x-large;
+}
+
+.headerColor{
+    background: rgb(16,50,47);
+    background: linear-gradient(0deg, rgb(9, 27, 26) 0%, rgba(0,0,0,1) 100%); 
+}
+
+.navColor{
+    background: rgb(207,65,65);
+    background: linear-gradient(90deg, rgba(207,65,65,1) 0%, rgba(202,207,65,1) 50%, rgba(55,198,187,1) 100%); 
+}
+
+.animation{
+	background: linear-gradient(-45deg, #fa7b54, #e63b52, #edb85d, #438e64);
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+	height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.profileBorder {
+  border: 3px solid #e9d6d6;
+}
+
+.imgBorder{
+    border: 3px solid rgb(43, 41, 41);
+}
+
+.whiteText{
+    color: #e9d6d6;
+}
+
+.slide{
+    animation: slide 1s ease 0s 1 normal forwards;
+    
+}
+
+@keyframes slide {
+	0% {
+
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.bar1{
+    animation: bar1 1.50s ease 0s 1 normal forwards;
+}
+
+@keyframes bar1 {
+	0% {
+		transform: translateX(-250px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.bar2{
+    animation: bar1 1.50s ease 0s 1 normal forwards;
+}
+
+@keyframes bar2 {
+	0% {
+		transform: translateX(-250px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.bar3{
+    animation: bar1 2s ease 0s 1 normal forwards;
+}
+
+@keyframes bar3 {
+	0% {
+		transform: translateX(-250px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.bar4{
+    animation: bar1 2.50s ease 0s 1 normal forwards;
+}
+
+@keyframes bar4 {
+	0% {
+		transform: translateX(-250px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.hidden{
+	opacity: 0;
+	transition: all 1.5s;
+	transform: translateX(-100%);
+}
+
+.show{
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+
+p{
+	text-align: justify;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+  }
+
